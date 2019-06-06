@@ -1,0 +1,43 @@
+rpc, rpc-j, rpc-[支部コード]
+ -hazard
+ -oc(whiteとalphaは別)
+ -EoIs
+ -uncontained : 未収容
+ -001 : 001提言
+
+media
+ -site : 施設
+ -personnel : 人事ファイル
+ -acquired-writings, footage, photograph, goi-doc : 回収文書,映像,画像,GoI文書
+ -mst : MST
+
+tale
+ -non-canon : 非世界観
+ -horror : ホラー
+ -eoi-tale
+ -alt-timeline : 平行世界
+ -military : 軍事
+ -reserch : 研究
+ -containment : 収容
+ -noir : 闇
+ -comedy : コメディ
+ -history : 歴史
+ -short(1000words(日本語2250字)未満)
+
+archived
+archived-by-author
+author-page : 著者ページ
+collaboration : 共著
+format-break
+guide : ガイド
+policy : ポリシー
+supplemental : 補足
+hub : ハブ
+information (loreと統合？) : 情報
+component
+ -theme
+ -system
+admin
+要翻訳
+削除通知
+画像差し止め
