@@ -1,7 +1,7 @@
 [[module CSS]]
 .table {
-  border: 1px solid #f1f3f5;
-  background: #2f2f2f;
+  border: 1px solid #ced4da;
+  background: #f1f3f5;
   width: 100%;
   border-collapse: collapse;
   margin: 10px 0 15px;
@@ -10,24 +10,36 @@
   box-shadow: none;
 }
   .section {
-  width: 20%;
+  width: 25%;
+  padding-left: 5px;
   }
   #page-content table tr:nth-child(even){
   background: #dee2e6;
+}
+.heading, .heading a {
+  color: #1971c2;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 1em 0;
+}
+.heading.tag::after {
+  content: "  - クリックで表示";
+  color: #495057;
+  font-size: 8px;
+  margin:
 }
 [[/module]]
 
 [[include :rpc-jp:component:guide-title logo=question-bg | title=タグリスト]]
 [[div class="normal-box"]]
 
+[[span class="heading"]]はじめに[[/span]]
+このページは、RPC-JP内で使われるタグの一覧です。
+タグの付け方などについては[[[tagging-guide|タグガイド]]]を参照してください。
+このリストにないタグを勝手に作成しないでください。新しいタグを作成できるのはスタッフだけです。新しいタグを使用する必要がある場合、[[[staffpage|スタッフ]]]に連絡してください。
 
-Tagging your articles is an important part of article creation. It helps users find specific kinds of articles and it also helps staff archive articles effectively. This page is a guide on how to properly tag your articles.
-
-If you are unsure of how to tag your article, contact a site staff member.
-
-Do not create tags that are not on this list. Contact a staff member if you believe a new tag should be created.
+[[span class="heading tag"]][[collapsible show="RPC記事" hide="RPC記事"]][[/span]]
 +++ 基本タグ
-- 基本タグは、それがどのようなページなのかを表します。
 [[table class="table"]]
 [[row]]
 [[cell class="section"]]
@@ -42,903 +54,280 @@ Do not create tags that are not on this list. Contact a staff member if you beli
 **rpc-j**
 [[/cell]]
 [[cell]]
-- ジョークRPC記事に使われます。
+- [[[joke-rpcs|ジョークRPC記事]]]に使われます。
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell class="section"]]
-**tale**
+**rpc-pl/cn/fr/pt**
 [[/cell]]
 [[cell]]
-- tale記事に使われます。
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**site**
-[[/cell]]
-[[cell]]
-- Designates a site.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**personnel**
-[[/cell]]
-[[cell]]
-- Designates a personnel document.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**acquired-media**
-[[/cell]]
-[[cell]]
-- Designated an acquired media page.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**mst**
-[[/cell]]
-[[cell]]
-- Designates an MST page.
+- EN以外の支部の記事に使われます。元記事に合わせて使用してください。
 [[/cell]]
 [[/row]]
 [[/table]]
 
-These tags separate pages in the acquired media section.
+RPC記事には、以下のタグを使用してください。
 
 [[table class="table"]]
 [[row]]
 [[cell class="section"]]
-**writings**
+**オブジェクトクラスタグ**
 [[/cell]]
 [[cell]]
-- Designates writings acquired by the Authority.
+- 記事に合わせて２種類を１つずつ使用してください。
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell class="section"]]
-**footage**
+@@    @@-**収容難度評価**
 [[/cell]]
 [[cell]]
-- Designates footage acquired by the Authority.
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell class="section"]]
-**photograph**
+@@        @@-**alpha**
 [[/cell]]
 [[cell]]
-- Designates photographs acquired by the Authority.
+
 [[/cell]]
 [[/row]]
 [[row]]
 [[cell class="section"]]
-**goi-doc**
+@@        @@-**beta**
 [[/cell]]
 [[cell]]
-- Designates a Group of Interest document acquired by the Authority.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-gamma**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-neutralized**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-theta**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-omega**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-epsilon**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@    @@-**危険性評価**
+[[/cell]]
+[[cell]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@-**white**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@-**yellow**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-orange**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-red**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-purple**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-black**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+**ハザードタイプタグ**
+[[/cell]]
+[[cell]]
+- 記事に合わせて使用してください。
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@    @@-**収容難度評価**
+[[/cell]]
+[[cell]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@-**alpha**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@-**beta**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-gamma**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-neutralized**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-theta**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-omega**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-epsilon**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@    @@-**危険性評価**
+[[/cell]]
+[[cell]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@-**white**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@-**yellow**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-orange**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-red**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-purple**
+[[/cell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="section"]]
+@@        @@**-black**
+[[/cell]]
+[[cell]]
+
 [[/cell]]
 [[/row]]
 [[/table]]
 
-These tags are for labeling tales for navigation purposes.
 
-[[table class="table"]]
-[[row]]
-[[cell class="section"]]
-**non-canon**
-[[/cell]]
-[[cell]]
-- Designates a tale that is not canon.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**Horror**
-[[/cell]]
-[[cell]]
-- Designates a tale with themes of horror.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**eoi-tale**
-[[/cell]]
-[[cell]]
-- Designates a tale that is related to groups, governments, or persons of interest.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**alt-timeline**
-[[/cell]]
-[[cell]]
-- Designates a tale taking place in an alternate timeline to the baseline Authority.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**military**
-[[/cell]]
-[[cell]]
-- Designates a tale with themes of military.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**research**
-[[/cell]]
-[[cell]]
-- Designates a tale that involves research.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**containment**
-[[/cell]]
-[[cell]]
-- Designates a tale that involves the containment of anomalies.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**noir**
-[[/cell]]
-[[cell]]
-- Designates a tale with themes of murder, mystery, and conspiracy.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**comedy**
-[[/cell]]
-[[cell]]
-- Designates a tale with themes of comedy.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**history**
-[[/cell]]
-[[cell]]
-- Designates a tale involving the history of the RPC Authority universe.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**short**
-[[/cell]]
-[[cell]]
-- Designates a tale that is less than 1000 words.
-[[/cell]]
-[[/row]]
-[[/table]]
+[[/collapsible]]
 
-Badge tags.
 
-[[table class="table"]]
-[[row]]
-[[cell class="section"]]
-**contestwinner**
-[[/cell]]
-[[cell]]
-- Designated an article that won first place in a contest.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**runnerup**
-[[/cell]]
-[[cell]]
-- Designated an article that won second place in a contest.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**top10**
-[[/cell]]
-[[cell]]
-- Designated an article that has been in the top 10 on the top rated page with at least 25 votes.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**toparticle**
-[[/cell]]
-[[cell]]
-- Designated an article that has been #1 on the top rated page with at least 25 votes.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**topjoke**
-[[/cell]]
-[[cell]]
-- Designated an article that has been the top joke article on the top rated page with at least 25 votes.
-[[/cell]]
-[[/row]]
-[[/table]]
 
-Miscellaneous tags.
 
-[[table class="table"]]
-[[row]]
-[[cell class="section"]]
-**archived**
-[[/cell]]
-[[cell]]
-- Designated an archived page, archived because of deletion. (see [[[Archived Pages]]])
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**archived-by-author**
-[[/cell]]
-[[cell]]
-- Designated an archived page, archived per author request. (see [[[Archived Pages]]])
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**author-page**
-[[/cell]]
-[[cell]]
-- Designates an individual author page.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**collaboration**
-[[/cell]]
-[[cell]]
-- Designates an article open for contributions.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**format-break**
-[[/cell]]
-[[cell]]
-- Designates an article that subverts the typical format.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**guide**
-[[/cell]]
-[[cell]]
-- Designates a guide.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**policy**
-[[/cell]]
-[[cell]]
-- Designates a policy page.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**supplemental**
-[[/cell]]
-[[cell]]
-- Designates a supplementary page.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**uncontained**
-[[/cell]]
-[[cell]]
-- Designates an uncontained RPC.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**001**
-[[/cell]]
-[[cell]]
-- Designates an RPC-001 proposal.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**hub**
-[[/cell]]
-[[cell]]
-- Designates a hub.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**information**
-[[/cell]]
-[[cell]]
-- Designates an informational page.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**lore**
-[[/cell]]
-[[cell]]
-- Designates a lore page.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**theme**
-[[/cell]]
-[[cell]]
-- Designates a theme page.
-[[/cell]]
-[[/row]]
-[[/table]]
-
-+++ Object Classes
-An RPC's object class is implemented as separate tags for both containment rating and threat level. See the [[[Object Classes|Object Classes Page]]] for information on the meaning of these tags.
-++++ Lethality Ratings
-[[table class="table"]]
-[[row]]
-[[cell]]
-**white**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**yellow**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**orange**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**red**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**purple**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**black**
-[[/cell]]
-[[/row]]
-[[/table]]
-++++ Containment Ratings
-[[table class="table"]]
-[[row]]
-[[cell]]
-**alpha**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**beta**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**gamma**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**neutralized**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**theta**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**omega**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**epsilon**
-[[/cell]]
-[[/row]]
-[[/table]]
-
-+++ Hazards
-Full explanations for these tags can be found on the [[[http://www.rpc-wiki.com/threats-hazards|Threats and Hazards page]]]. They are used exclusively for RPCs and are subject to change as hazards are edited, removed, or added.
-[[table class="table"]]
-[[row]]
-[[cell class="section"]]
-**esoteric-hazard**
-[[/cell]]
-[[cell]]
-- Designates an article with a hazard that is not part of the official hazards list.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**non-hazardous**
-[[/cell]]
-[[cell]]
-- Designates an article that does not have any hazards.
-[[/cell]]
-[[/row]]
-[[/table]]
-[[table class="table"]]
-[[row]]
-[[cell]]
-**aggression-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**animated-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**aquatic-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**ballistic-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**climatological-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**ecological-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**extra-terrestrial-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**geological-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**grouped-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**incorporeal-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**mechanical-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**organic-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**regenerative-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**sapient-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**self-replicating-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**sentient-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**transmutation-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**bio-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**contact-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**corrosive-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**electric-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**explosive-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**extreme-temperatures-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**magnetic-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**radiation-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**toxic-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**anti-physical-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**chronological-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**extra-dimensional-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**gravitational-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**immeasurable-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**teleportation-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**tychokinetic-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**auditory-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**emotional-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**ideological-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**info-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**memory-alteration-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**mind-control-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**ontological-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**sensory-hazard**
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell]]
-**visual-hazard**
-[[/cell]]
-[[/row]]
-[[/table]]
-
-+++ Entity of Interest Tags
-[[table class="table"]]
-[[row]]
-[[cell class="section"]]
-**academy**
-[[/cell]]
-[[cell]]
-- Designates an article related to the Academy of True Art.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**aep**
-[[/cell]]
-[[cell]]
-- Designates an article related to the AEP Association.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**amazing.co**
-[[/cell]]
-[[cell]]
-- Designates an article related to Amazing! Co.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**apas**
-[[/cell]]
-[[cell]]
-- Designates an article related to the Anomalous Phenomena Acquisition Society.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**bluebook**
-[[/cell]]
-[[cell]]
-- Designates an article related to Project Blue Book.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**children-of-nihil**
-[[/cell]]
-[[cell]]
-- Designates an article related to The Children of Nihil.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**church-of-malthus**
-[[/cell]]
-[[cell]]
-- Designates an article related to The Church of Malthus.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**foa**
-[[/cell]]
-[[cell]]
-- Designates an article related to BündesOkkultAbteilung.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**gard**
-[[/cell]]
-[[cell]]
-- Designates an article related to the German Anomalous Research Division.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**gear**
-[[/cell]]
-[[cell]]
-- Designates an article related to the Global Enterprise for Advanced Research.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**ifeed**
-[[/cell]]
-[[cell]]
-- Designates an article related to Idyllic’s Finest in Esoteric & Extravagant Delights.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**kabushiki-kawaii**
-[[/cell]]
-[[cell]]
-- Designates an article related to Kabushiki Kawaii.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**mi13**
-[[/cell]]
-[[cell]]
-- Designates an article related to Military Intelligence Section Xiii.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**moms-against-magic**
-[[/cell]]
-[[cell]]
-- Designates an article related to Moms Against Magic.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**nivaldi**
-[[/cell]]
-[[cell]]
-- Designates an article related to Nivaldi.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**nucorp**
-[[/cell]]
-[[cell]]
-- Designates an article related to Nucorp Industries.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**pcaao**
-[[/cell]]
-[[cell]]
-- Designates an article related to the People's Committee for the Acquisition of Anomalous Objects.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**rcpa**
-[[/cell]]
-[[cell]]
-- Designates an article related to the Righteous Central Protection Authority.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**remnants**
-[[/cell]]
-[[cell]]
-- Designates an article related to the Remnants.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**the-array**
-[[/cell]]
-[[cell]]
-- Designates an article related to The Array.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**unaac**
-[[/cell]]
-[[cell]]
-- Designates an article related to the United Nations Anomalous Activities Committee.
-[[/cell]]
-[[/row]]
-[[/table]]
-
-+++ Contest Tags
-[[table class="table"]]
-[[row]]
-[[cell class="section"]]
-**001c**
-[[/cell]]
-[[cell]]
-- Designates an RPC-001 2018 contest entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**004**
-[[/cell]]
-[[cell]]
-- Designates a RPC-004 2019 contest entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**divisioncontest**
-[[/cell]]
-[[cell]]
-- Designates a Division Contest 2019 entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**halloweenrpc**
-[[/cell]]
-[[cell]]
-- Designates a Halloween 2018 RPC entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**halloweenphoto**
-[[/cell]]
-[[cell]]
-- Designates a Halloween 2018 Photo entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**halloweenwritings**
-[[/cell]]
-[[cell]]
-- Designates a Halloween 2018 Acquired Writings entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**jcontest**
-[[/cell]]
-[[cell]]
-- Designates a 2019 Joke contest entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**newrpc**
-[[/cell]]
-[[cell]]
-- Designates a New Beginnings 2018 contest entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**winterrpc**
-[[/cell]]
-[[cell]]
-- Designates a Winter 2018 RPC entry.
-[[/cell]]
-[[/row]]
-[[row]]
-[[cell class="section"]]
-**wintertale**
-[[/cell]]
-[[cell]]
-- Designates a Winter 2018 tale entry.
-[[/cell]]
-[[/row]]
-[[/table]]
 [[/div]]
