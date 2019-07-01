@@ -4,46 +4,57 @@
   background: #f1f3f5;
   width: 100%;
   border-collapse: collapse;
-  padding: 15px;
+  margin: 1%;
   box-shadow: 3px 3px 6px #bbb;
   box-shadow: none;
 }
-  .section {
+
+.section {
   width: 25%;
-  padding-left: 5px;
-  }
-  #page-content table tr:nth-child(even){
+  padding-left: 3px;
+}
+
+#page-content table tr:nth-child(even) {
   background: #dee2e6;
 }
+
 h3 {
   color: #1971c2;
   font-weight: bold;
   font-size: 135%;
 }
+
 .heading-list a {
   color: #1c7ed6;
   font-weight: bold;
   font-size: 120%;
 }
+
 .heading-list::before{
   content: "・";
   color: #1c7ed6;
 }
+
 .heading-list::after {
   content: "  - クリックで表示";
   color: #495057;
   font-size: 60%;
 }
+
 .wrapper {
-  padding-left: 3%;
+  margin-left: 1%;
 }
+
+.wrapper-table {
+  margin-left: 3%;
+}
+
 [[/module]]
 
 [[include :rpc-jp:component:guide-title logo=question-bg | title=タグリスト]]
 [[div class="normal-box"]]
 
 +++ はじめに
-
 このページは、RPC-JP内で使われるタグの一覧です。
 タグの付け方などについては[[[tagging-guide|タグガイド]]]を参照してください。
 このリストにないタグを勝手に作成しないでください。新しいタグを作成できるのはスタッフだけです。新しいタグを使用する必要がある場合、[[[staffpage|スタッフ]]]に連絡してください。
@@ -54,7 +65,7 @@ h3 {
 +++ タグ一覧
 [[div class="wrapper"]]
 [[span class="heading-list"]][[collapsible show="RPC記事" hide="RPC記事"]][[/span]]
-
+[[div class="wrapper-table"]]
 +++++ 基本タグ
 [[table class="table"]]
 [[row]]
@@ -109,9 +120,9 @@ h3 {
 [[/cell]]
 [[/row]]
 [[/table]]
-
-[[/div]]
-[[/collapsible]]
+[[/div]][!--wrapper-table--]
+[[/div]][!--wrapper--]
+[[/collapsible]][!--rpc記事--]
 
 
 
