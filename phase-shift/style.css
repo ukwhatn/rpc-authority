@@ -1,1 +1,92 @@
-/* CSS Document */
+@import url("//fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500,700&display=swap&subset=japanese");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0 0 .5rem;
+  padding: 0 .25rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+#header {
+  height: 10rem;
+  margin: 0 auto .5rem;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+#header h1,
+#header h2 {
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 auto;
+  max-width: 63rem;
+}
+#header h1 span,
+#header h2 span {
+  vertical-align: middle;
+}
+#header h1 {
+  height: 3rem;
+  transform: translate(0, 2rem);
+}
+#header h1 a {
+  display: inline-block;
+  height: inherit;
+}
+#header h2 {
+  font-size: 1rem;
+  height: 1rem;
+  transform: translate(0, 2.5rem);
+}
