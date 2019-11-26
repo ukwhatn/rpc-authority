@@ -1,0 +1,16 @@
+/* Btn */
+
+@mixin SetBtn(
+  $Color: transparent,
+  $Style: none,
+  $Width: 0,
+  $Radius: null
+  ) {
+    border: {
+      color: $Color;
+      style: $Style;
+      width: $Width;
+      radius: map-get($Sizes, $Radius);
+    }
+    display: inline-block;
+}

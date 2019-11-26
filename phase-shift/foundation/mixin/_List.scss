@@ -1,0 +1,22 @@
+/* List */
+
+@mixin SetList($Preset) {
+  $Presets: (
+    "Block": (
+      "ListStyle": disc,
+      "Display": list-item,
+    ),
+    "Inline": (
+      "ListStyle": none,
+      "Display": inline-block,
+    ),
+  ) !default;
+  
+  ul {
+    list-style: map-get(map-get($Presets, $Preset), ListStyle);
+      
+    li {
+      display: map-get(map-get($Presets, $Preset), Display);
+    }
+  }
+}

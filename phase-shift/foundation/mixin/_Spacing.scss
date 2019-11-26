@@ -1,0 +1,15 @@
+/* Spacing */
+
+@mixin SetSpacing($Property, $Direction: none, $Size: None) {
+  $Directions: (
+    "None": null,
+    "Top": "-top",
+    "Left": "-left",
+    "Right": "-right",
+    "Bottom": "-bottom",
+    "Horizontal": "-left" "-right",
+    "Vertical": "-top" "-bottom",
+  ) !default;
+  
+  #{$Property}#{map-get($Directions, $Direction)}: map-get($Sizes, $Size);
+}
