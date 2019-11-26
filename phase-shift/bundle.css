@@ -1,0 +1,54 @@
+/* List */
+/* Btn */
+/* Spacing */
+/* Site Title */
+#header h1,
+#header h2 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+#header h1 span,
+#header h2 span {
+  vertical-align: middle;
+}
+#header h1 {
+  font-size: 2.5rem;
+  height: 3rem;
+}
+#header h1 a {
+  display: inline-block;
+  height: inherit;
+}
+#header h2 {
+  font-size: 1rem;
+  height: 1rem;
+}
+
+/* Top-Bar */
+#top-bar ul {
+  list-style: none;
+}
+#top-bar ul li {
+  display: inline-block;
+}
+#top-bar ul {
+  Magine: 0;
+  Padding: 0;
+}
+#top-bar ul li ul {
+  list-style: disc;
+}
+#top-bar ul li ul li {
+  display: list-item;
+}
+#top-bar ul li ul {
+  Magine: 0;
+  Padding: 0;
+}
+#top-bar ul li ul li a {
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  display: inline-block;
+}
