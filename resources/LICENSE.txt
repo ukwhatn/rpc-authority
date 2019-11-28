@@ -1,0 +1,35 @@
+/logo
+    logo.svg
+        title:      logo.svg
+        author:     y075ub4
+        based:      RPC Anomaly logo by VolgunStrife (CC BY-SA 3.0) -> https://commons.wikimedia.org/wiki/File:RPC_Anomaly_logo.png
+        license:     CC BY-SA 3.0
+
+    /fullsize, /iconsize
+        All Files (You need to describe filename when you use and publish files)
+            title:      <FILENAME>
+            author:     ukwhatn
+            based:      RPC Anomaly logo by VolgunStrife (CC BY-SA 3.0) -> https://commons.wikimedia.org/wiki/File:RPC_Anomaly_logo.png
+            license:    CC BY-SA 3.0
+    /psd
+        All Files (You need to describe filename when you use and publish files)
+            title:      <FILENAME>
+            author:     ukwhatn
+            based:      RPC Anomaly logo by VolgunStrife (CC BY-SA 3.0) -> https://commons.wikimedia.org/wiki/File:RPC_Anomaly_logo.png
+            license:    CC BY-SA 3.0
+
+
+/oc
+    All Files (You need to describe filenames when you use and publish files)
+        title:      <FILENAME>
+        author:     RPC Authority (rpc-wiki.net)
+        source:     http://www.rpc-wiki.net/object-classes
+        license:    CC BY-SA 3.0
+
+/others
+    twitter-header.png
+        title:      RPC-JP Twitter Header 
+        author:     ukwhatn
+        based:      RPC Anomaly logo by VolgunStrife (CC BY-SA 3.0) -> https://commons.wikimedia.org/wiki/File:RPC_Anomaly_logo.png
+                    RPC-JP Logo by ukwhatn (CC BY-SA 3.0) -> https://commons.wikimedia.org/wiki/File:RPC-JP_Logo.png
+        license:    CC BY-SA 3.0
