@@ -5,6 +5,10 @@ Original sidebar code by Croquembouche from the SCP Wiki
 http://www.wikidot.com/user:info/croquembouche
 */
 
+/* Import Mobile Media Query */
+
+@import url('http://files.ukwhatn.xyz/css/supremacy/mobile.css');
+
 #side-bar .side-block {
     border: none;
     border-radius: 0;
@@ -113,7 +117,3 @@ http://www.wikidot.com/user:info/croquembouche
     }
 
 }
-
-/* Import Mobile Media Query */
-
-@import url('http://files.ukwhatn.xyz/css/supremacy/mobile.css');
