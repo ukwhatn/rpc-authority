@@ -69,6 +69,7 @@
 
 body {
     background: #e8e8e3;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 #content-wrap {
@@ -177,7 +178,7 @@ div#container-wrap {
 }
 
 #header {
-    background: url(http://files.ukwhatn.xyz/rpc/logo/iconsize/logo-white-origin-transparent.png) 5px 25px no-repeat;
+    background: url(http://files.ukwhatn.xyz/rpc/logo/iconsize/logo-white-gear-transparent.png) 5px 25px no-repeat;
     background-size: 115px auto;
     height: 140px;
     padding-bottom: 22px;

@@ -1,0 +1,77 @@
+/* Stracture */
+.sbsys-portaleditor {
+    width: 95%;
+    margin: 10px auto;
+    padding: 15px 5px;
+    border-radius: 15px;
+}
+
+.sbsys-datacontainer,
+.sbsys-controlcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+    width: 95%;
+    margin: 5px auto;
+}
+
+.sbsys-datacontainer .item {
+    flex: 0 0 45%;
+    border-radius: 5px;
+}
+
+.sbsys-controlcontainer .item {
+    flex: 0 0 22%;
+    border-radius: 5px;
+}
+
+@media (max-width:480px) {
+    .sbsys-controlcontainer .item {
+        flex: 0 0 90%;
+    }
+}
+
+/* Skin */
+.sbsys-portaleditor {
+    text-align: center;
+    background-color: white;
+    border: dotted 3px dimgray;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sbsys-portaleditor .heading {
+    color: #1b2656;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sbsys-controlcontainer .item {
+    background-color: transparent;
+    border: solid 1px white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.sbsys-controlcontainer .item a {
+    color: #1b2656;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.sbsys-datacontainer .item,
+.sbsys-datacontainer .item a {
+    background-color: transparent;
+    color: #1b2656;
+    font-weight: bold;
+}
+
+.sbsys-controlcontainer .item {
+    background-color: crimson;
+}
+
+.sbsys-controlcontainer .item a {
+    color: white;
+    font-size: 120%;
+}

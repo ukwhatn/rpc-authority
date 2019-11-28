@@ -1,0 +1,116 @@
+/* Change PageTitle*/
+#page-title {
+    font-size: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#page-title::after {
+    font-size: 30px;
+    content: "査読中の下書きリスト";
+    color: #1b2656;
+}
+
+.sbsys-baseblock .collapsible-block-link {
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.sbsys-listwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.sbsys-listwrapper a {
+    color: black;
+}
+
+.sbsys-listwrapper .heading a {
+    color: #1b2656;
+    font-size: 150%;
+}
+
+
+.sbsys-listwrapper .heading {
+    flex: 0 0 95%;
+    border-bottom: solid 2px dimgray;
+    padding-bottom: 5px;
+}
+
+.sbsys-listwrapper .item {
+    flex: 0 1 30%;
+}
+
+.sbsys-listwrapper .name {
+    flex: 1 0 30%;
+}
+
+.sbsys-listwrapper .updated {
+    flex: 0 0 95%;
+}
+
+.sbsys-reviewcontroler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.sbsys-reviewcontroler a {
+    color: white;
+    font-size: 120%;
+}
+
+.sbsys-reviewcontroler .heading {
+    flex: 0 0 100%;
+    margin-bottom: 5px;
+    font-size: 150%;
+}
+
+.sbsys-reviewcontroler .all {
+    flex: 0 0 100%;
+    border-radius: 5px;
+    border: solid 1px white;
+    margin-bottom: 10px;
+}
+
+.sbsys-reviewcontroler .item {
+    flex: 0 0 32%;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
+.sbsys-reviewcontroler .order {
+    flex: 0 0 49%;
+    border-radius: 5px;
+    border: solid 1px white;
+    margin-bottom: 5px;
+}
+
+.sbsys-reviewcontroler .active {
+    background-color: white;
+    color: #1b2656;
+}
+
+@media (max-width:480px) {
+    .sbsys-listwrapper .item {
+        flex: 0 0 95%;
+    }
+
+    .sbsys-listwrapper .name,
+    .sbsys-listwrapper .updated {
+        order: 2;
+    }
+
+}
+
+}

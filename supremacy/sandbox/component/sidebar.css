@@ -1,0 +1,119 @@
+/*
+Modified by Vizlox for the RPC Authority
+
+Original sidebar code by Croquembouche from the SCP Wiki
+http://www.wikidot.com/user:info/croquembouche
+*/
+
+#side-bar .side-block {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent !important;
+    padding: 0;
+    padding-right: calc(8.1em - 1px);
+    margin-left: 0em;
+    margin-right: -7em;
+}
+
+#side-bar .heading {
+    border: none;
+    border-radius: 0;
+    color: #1d1d1d;
+    font-size: 1.2em;
+    padding: 0.5em 1em 0 -0;
+    border-top: 1px solid #000;
+    margin: 1em calc(-1em + 2px) 0.5em 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#side-bar div.menu-item {
+    margin: 0;
+    font-size: 0;
+}
+
+#side-bar div.menu-item a {
+    font-weight: normal;
+}
+
+#side-bar .menu-item > img {
+    display: none;
+}
+
+#side-bar .menu-item > a {
+    transition: all 0.1s ease-in-out;
+    display: block;
+    color: #444;
+    margin: 0 calc(-1em - 1px) 0 -0.5em;
+    padding: 0.4em 1em 0.4em 0.5em;
+    font-size: 12.8px;
+}
+
+#side-bar .menu-item > a:hover {
+    background-color: #021A4A;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+#main-content {
+    margin: 0 2em 0 21em;
+    padding: 2em 2em calc(14em - 1px) 3em;
+}
+
+#side-bar .menu-item > a[href*="/rpc-series"]::after {
+    font-size: 80%;
+    opacity: 0.7;
+    margin-left: 0.5em;
+}
+
+#side-bar .menu-item > a[href="/rpc-series"]::after {
+    content: "(001–999)";
+}
+
+#side-bar .menu-item > a[href="https://discord.gg/wkXBuxt"]::before {
+    content: url('http://rpcauthority.wdfiles.com/local--files/nav%3Aside/discord.png');
+    position: absolute;
+    left: 15em;
+}
+
+#side-bar .menu-item > a[href="https://www.reddit.com/r/TheRPCAuthority/"]::before {
+    content: url('http://rpcauthority.wdfiles.com/local--files/nav%3Aside/reddit.png');
+    position: absolute;
+    left: 15em;
+}
+
+#side-bar .menu-item > a[href="https://steamcommunity.com/groups/ORPCGP"]::before {
+    content: url('http://rpcauthority.wdfiles.com/local--files/nav%3Aside/steam.png');
+    position: absolute;
+    left: 15em;
+}
+
+/* Trump did 9/11 */
+#side-bar .menu-item > a[href="https://twitter.com/RPCAuthority"]::before {
+    content: url('http://rpcauthority.wdfiles.com/local--files/nav%3Aside/twitter.png');
+    position: absolute;
+    left: 15em;
+}
+
+#side-bar .menu-item > a[href="https://www.redbubble.com/people/RPCAuthority/portfolio?asc=u"]::before {
+    content: url('http://rpcauthority.wdfiles.com/local--files/nav%3Aside/redbubble.png');
+    position: absolute;
+    left: 15em;
+}
+
+
+
+@media (max-width: 768px) {
+
+    #main-content {
+        max-width: 90%;
+        margin: 0 5%;
+        padding: 0;
+    }
+
+}
+
+/* Import Mobile Media Query */
+
+@import url('http://files.ukwhatn.xyz/css/supremacy/mobile.css');

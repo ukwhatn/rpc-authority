@@ -300,15 +300,6 @@
         display: none;
     }
 
-    #header h1 a span {
-        font-size: 0px;
-    }
-
-    #header h1 a::before {
-        content: "TEST Wiki";
-    }
-
-
 }
 
 @media (max-width:480px) {

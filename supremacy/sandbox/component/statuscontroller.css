@@ -1,0 +1,118 @@
+/* Stracture */
+.sbsys-statuscontroler,
+.sbsys-reviewcontainer {
+    width: 95%;
+    margin: 10px auto;
+    padding: 15px 5px;
+    border-radius: 15px;
+}
+
+.sbsys-tagcontainer,
+.sbsys-datacontainer,
+.sbsys-controlcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    width: 95%;
+    margin: 5px auto;
+}
+
+.sbsys-tagcontainer .item,
+.sbsys-datacontainer .item,
+.sbsys-controlcontainer .item {
+    border-radius: 5px;
+}
+
+.sbsys-tagcontainer .category {
+    flex: 0 0 45%;
+}
+
+.sbsys-tagcontainer .status {
+    flex: 0 0 30%;
+}
+
+.sbsys-datacontainer .item {
+    flex: 0 0 45%;
+}
+
+.sbsys-controlcontainer .item {
+    flex: 0 0 22%;
+}
+
+@media (max-width:480px) {
+    .sbsys-tagcontainer-status .item {
+        flex: 0 0 23%;
+    }
+
+    .sbsys-tagcontainer-status .active {
+        flex: 0 0 45%;
+    }
+
+    .sbsys-controlcontainer .item {
+        flex: 0 0 90%;
+    }
+}
+
+/* Skin */
+.sbsys-statuscontroler {
+    text-align: center;
+    background-color: white;
+    border: dotted 3px dimgray;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sbsys-reviewcontainer {
+    text-align: center;
+    background-color: white;
+    border: dotted 3px #1b2656;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sbsys-tagcontainer .item,
+.sbsys-controlcontainer .item {
+    background-color: transparent;
+    border: solid 1px white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.sbsys-tagcontainer .item a,
+.sbsys-controlcontainer .item a {
+    color: #1b2656;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.sbsys-tagcontainer .active {
+    background-color: #1b2656;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sbsys-tagcontainer .active a {
+    color: white;
+}
+
+.sbsys-datacontainer .item,
+.sbsys-datacontainer .item a {
+    background-color: transparent;
+    color: #1b2656;
+    font-weight: bold;
+}
+
+.sbsys-controlcontainer .item {
+    background-color: crimson;
+}
+
+.sbsys-controlcontainer .item a {
+    color: white;
+    font-size: 120%;
+}
+
+.sbsys-statuscontroler .heading,
+.sbsys-reviewcontainer .heading {
+    color: #1b2656;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 10px;
+}
