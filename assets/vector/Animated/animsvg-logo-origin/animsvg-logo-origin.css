@@ -1,0 +1,23 @@
+@keyframes logo-origin {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    100% {
+        background-position: -54000px 0px;
+    }
+}
+
+.animsvg-logo-origin {
+    animation-duration: 3000ms;
+    animation-timing-function: steps(180);
+    animation-fill-mode: forwards;
+    width: 300px;
+    height: 259px;
+    background-repeat: no-repeat;
+}
+
+.animsvg-logo-origin.play {
+    animation-name: logo-origin;
+    background-image: url('http://files.ukwhatn.xyz/rpc/vector/Animated/animsvg-logo-origin/animsvg-logo-origin.svg');
+}
