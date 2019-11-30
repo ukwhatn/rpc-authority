@@ -4,13 +4,13 @@
     }
 
     100% {
-        background-position: -54000px 0px;
+        background-position: -45000px 0px;
     }
 }
 
 .animsvg-logo-origin {
-    animation-duration: 3000ms;
-    animation-timing-function: steps(180);
+    animation-duration: 2500ms;
+    animation-timing-function: steps(150);
     animation-fill-mode: forwards;
     width: 300px;
     height: 259px;
@@ -19,5 +19,5 @@
 
 .animsvg-logo-origin.play {
     animation-name: logo-origin;
-    background-image: url('http://files.ukwhatn.xyz/rpc/vector/Animated/animsvg-logo-origin/animsvg-logo-origin.svg');
+    background-image: url('http://files.ukwhatn.xyz/rpc/vector/animated/animsvg-logo-origin/vector.svg');
 }

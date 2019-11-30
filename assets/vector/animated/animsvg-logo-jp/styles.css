@@ -4,13 +4,13 @@
     }
 
     100% {
-        background-position: -54000px 0px;
+        background-position: -63000px 0px;
     }
 }
 
 .animsvg-logo-jp {
-    animation-duration: 3000ms;
-    animation-timing-function: steps(180);
+    animation-duration: 3500ms;
+    animation-timing-function: steps(210);
     animation-fill-mode: forwards;
     width: 300px;
     height: 259px;
@@ -19,5 +19,7 @@
 
 .animsvg-logo-jp.play {
     animation-name: logo-jp;
-    background-image: url('http://files.ukwhatn.xyz/rpc/vector/Animated/animsvg-logo-jp/animsvg-logo-jp.svg');
+    background-image: url('http://files.ukwhatn.xyz/rpc/vector/animated/animsvg-logo-jp/vector.svg');
 }
+
+
