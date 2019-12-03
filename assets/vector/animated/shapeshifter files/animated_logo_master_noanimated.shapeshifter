@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "1655",
+      "name": "vector",
+      "type": "vector",
+      "width": 500,
+      "height": 435,
+      "children": [
+        {
+          "id": "1656",
+          "name": "hexafiller_jp",
+          "type": "group",
+          "children": [
+            {
+              "id": "1657",
+              "name": "hexafiller_jp_top",
+              "type": "path",
+              "pathData": "M 250.357 145.66 L 181.081 106.1 L 250.233 67.103 L 319.633 106.1 L 250.357 145.66 Z",
+              "fillColor": "#ea0032"
+            },
+            {
+              "id": "1658",
+              "name": "hexafiller_jp_left",
+              "type": "path",
+              "pathData": "M 250.357 145.66 L 250.355 225.388 L 181.08 185.66 L 181.08 106.1 L 250.357 145.66 Z",
+              "fillColor": "#ea0032"
+            },
+            {
+              "id": "1659",
+              "name": "hexafiller_jp_right",
+              "type": "path",
+              "pathData": "M 250.357 145.66 L 318.956 106.1 L 319.296 185.66 L 250.356 225.388 L 250.357 145.66 Z",
+              "fillColor": "#ea0032"
+            }
+          ]
+        },
+        {
+          "id": "1660",
+          "name": "hexainner",
+          "type": "group",
+          "children": [
+            {
+              "id": "1661",
+              "name": "hexainner_right",
+              "type": "path",
+              "pathData": "M 250.357 145.66 L 316.679 107.787 L 250.357 145.66 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1662",
+              "name": "hexainner_bot",
+              "type": "path",
+              "pathData": "M 250.357 145.66 L 250.355 222.333 L 250.357 145.66 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1663",
+              "name": "hexainner_left",
+              "type": "path",
+              "pathData": "M 250.357 145.66 L 181.081 106.1 L 250.357 145.66 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            }
+          ]
+        },
+        {
+          "id": "1664",
+          "name": "hexa",
+          "type": "group",
+          "children": [
+            {
+              "id": "1665",
+              "name": "hexa_top_left",
+              "type": "path",
+              "pathData": "M 250.233 67.102 L 181.081 106.1 L 250.233 67.102 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1666",
+              "name": "hexa_top_right",
+              "type": "path",
+              "pathData": "M 319.296 106.292 L 250.233 67.102 L 319.296 106.292 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1667",
+              "name": "hexa_mid_left",
+              "type": "path",
+              "pathData": "M 181.081 106.1 L 181.081 185.659 L 181.081 106.1 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1668",
+              "name": "hexa_mid_right",
+              "type": "path",
+              "pathData": "M 319.296 185.659 L 319.296 106.292 L 319.296 185.659 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1669",
+              "name": "hexa_bot_left",
+              "type": "path",
+              "pathData": "M 181.08 185.659 L 250.355 225.387 L 181.08 185.659 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1670",
+              "name": "hexa_bot_right",
+              "type": "path",
+              "pathData": "M 250.356 225.388 L 319.296 185.66 L 250.356 225.388 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            }
+          ]
+        },
+        {
+          "id": "1671",
+          "name": "inner",
+          "type": "group",
+          "children": [
+            {
+              "id": "1672",
+              "name": "inner_long_left",
+              "type": "path",
+              "pathData": "M 95.902 57.458 L 183.089 107.246 L 95.902 57.458 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1673",
+              "name": "inner_long_right",
+              "type": "path",
+              "pathData": "M 404.803 57.463 L 316.903 107.658 L 404.803 57.463 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1674",
+              "name": "inner_long_bot",
+              "type": "path",
+              "pathData": "M 250.354 324.98 L 250.355 223.05 L 250.354 324.98 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1675",
+              "name": "inner_short_top",
+              "type": "path",
+              "pathData": "M 250.233 54.464 L 250.233 69.703 L 250.233 54.464 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1676",
+              "name": "inner_short_left",
+              "type": "path",
+              "pathData": "M 170.614 191.974 L 183.119 184.43 L 170.614 191.974 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1677",
+              "name": "inner_short_right",
+              "type": "path",
+              "pathData": "M 330.545 191.974 L 317.047 184.398 L 330.545 191.974 Z",
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            }
+          ]
+        },
+        {
+          "id": "1678",
+          "name": "triangle",
+          "type": "group",
+          "children": [
+            {
+              "id": "1876",
+              "name": "triangle_all",
+              "type": "path",
+              "pathData": "M 38.825 24.143 L 250.462 390.114 L 461.748 24.192 L 38.825 24.143 Z M 250.354 324.98 L 95.902 57.458 L 404.804 57.463 L 250.354 324.98 Z",
+              "fillColor": "#000",
+              "strokeWidth": 1
+            },
+            {
+              "id": "1679",
+              "name": "triangle_top",
+              "type": "path",
+              "pathData": "M 461.748 24.192 L 38.825 24.143 L 95.902 57.458 L 404.804 57.463 L 461.748 24.192 Z",
+              "fillColor": "#000",
+              "strokeWidth": 1
+            },
+            {
+              "id": "1680",
+              "name": "triangle_left",
+              "type": "path",
+              "pathData": "M 38.825 24.143 L 250.462 390.114 L 250.355 324.979 L 95.902 57.458 L 38.825 24.143 Z",
+              "fillColor": "#000",
+              "strokeWidth": 1
+            },
+            {
+              "id": "1681",
+              "name": "triangle_right",
+              "type": "path",
+              "pathData": "M 250.461 390.114 L 461.748 24.192 L 404.803 57.463 L 250.354 324.98 L 250.461 390.114 Z",
+              "fillColor": "#000",
+              "strokeWidth": 1
+            }
+          ]
+        },
+        {
+          "id": "1682",
+          "name": "outer",
+          "type": "group",
+          "children": [
+            {
+              "id": "1683",
+              "name": "outer_left",
+              "type": "path",
+              "pathData": "M 2.5 3.241 L 68.758 118.033 L 82.59 114.324 L 26.708 17.532 L 138.194 17.532 L 133.922 3.241 L 2.5 3.241 Z",
+              "fillColor": "#000000"
+            },
+            {
+              "id": "1684",
+              "name": "outer_right",
+              "type": "path",
+              "pathData": "M 497.5 3.241 L 368.488 3.353 L 364.697 17.498 L 473.151 17.498 L 417.834 113.312 L 431.843 117.065 L 497.5 3.241 Z",
+              "fillColor": "#000",
+              "strokeWidth": 1
+            },
+            {
+              "id": "1685",
+              "name": "outer_bot",
+              "type": "path",
+              "pathData": "M 250.109 432.099 L 314.952 319.783 L 304.685 309.516 L 250.271 403.762 L 196.993 311.48 L 186.374 322.096 L 250.109 432.099 Z",
+              "fillColor": "#000000"
+            }
+          ]
+        },
+        {
+          "id": "1686",
+          "name": "filler",
+          "type": "group",
+          "children": [
+            {
+              "id": "1687",
+              "name": "filler_inner",
+              "type": "path",
+              "pathData": "M 95.902 57.458 L 183.089 107.246 L 95.902 57.458 Z M 250.354 324.98 L 250.355 223.05 L 250.354 324.98 Z M 404.803 57.463 L 316.903 107.658 L 404.803 57.463 Z M 170.614 191.974 L 183.119 184.43 L 170.614 191.974 Z M 330.545 191.974 L 317.047 184.398 L 330.545 191.974 Z M 250.233 54.464 L 250.233 69.703 L 250.233 54.464 Z M 250.233 67.102 L 181.081 106.1 L 250.233 67.102 Z M 181.081 106.1 L 181.081 185.659 L 181.081 106.1 Z M 181.08 185.659 L 250.355 225.387 L 181.08 185.659 Z M 250.356 225.388 L 319.296 185.66 L 250.356 225.388 Z M 319.296 185.659 L 319.296 106.292 L 319.296 185.659 Z M 319.296 106.292 L 250.233 67.102 L 319.296 106.292 Z M 250.357 145.66 L 181.081 106.1 L 250.357 145.66 Z M 250.357 145.66 L 250.355 222.333 L 250.357 145.66 Z M 250.357 145.66 L 316.679 107.787 L 250.357 145.66 Z",
+              "fillAlpha": 0,
+              "strokeColor": "#000000",
+              "strokeWidth": 9
+            },
+            {
+              "id": "1688",
+              "name": "filler_triangle",
+              "type": "path",
+              "pathData": "M 38.825 24.143 L 250.462 390.114 L 250.355 324.979 L 95.902 57.458 L 38.825 24.143 Z M 250.461 390.114 L 461.748 24.192 L 404.803 57.463 L 250.354 324.98 L 250.461 390.114 Z M 461.748 24.192 L 38.825 24.143 L 95.902 57.458 L 404.804 57.463 L 461.748 24.192 Z",
+              "fillColor": "#000",
+              "strokeAlpha": 0,
+              "strokeWidth": 1
+            },
+            {
+              "id": "1689",
+              "name": "filler_outer",
+              "type": "path",
+              "pathData": "M 2.5 3.241 L 68.758 118.033 L 82.59 114.324 L 26.708 17.532 L 138.194 17.532 L 133.922 3.241 L 2.5 3.241 Z M 250.109 432.099 L 314.952 319.783 L 304.685 309.516 L 250.271 403.762 L 196.993 311.48 L 186.374 322.096 L 250.109 432.099 Z M 497.5 3.241 L 368.488 3.353 L 364.697 17.498 L 473.151 17.498 L 417.834 113.312 L 431.843 117.065 L 497.5 3.241 Z",
+              "fillColor": "#000",
+              "strokeWidth": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hiddenLayerIds": []
+  },
+  "timeline": {
+    "animation": {
+      "id": "1690",
+      "name": "anim",
+      "duration": 3000,
+      "blocks": []
+    }
+  }
+}

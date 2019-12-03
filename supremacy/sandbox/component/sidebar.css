@@ -61,8 +61,7 @@ http://www.wikidot.com/user:info/croquembouche
 }
 
 #main-content {
-    margin: 0 2em 0 21em;
-    padding: 2em 2em calc(14em - 1px) 3em;
+    margin: 0 1em 0 21em;
 }
 
 #side-bar .menu-item > a[href*="/rpc-series"]::after {

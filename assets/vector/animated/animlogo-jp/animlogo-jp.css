@@ -1,0 +1,23 @@
+@keyframes animlogo-jp {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    100% {
+        background-position: -150000px 0px;
+    }
+}
+
+.animlogo-jp {
+    animation-duration: 5000ms;
+    animation-timing-function: steps(300);
+    width: 500px;
+    height: 435px;
+    animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+}
+
+.animlogo-jp.play {
+    animation-name: animlogo-jp;
+    background-image: url('http://files.ukwhatn.xyz/rpc/vector/animated/animlogo-jp/animlogo-jp.svg');
+}

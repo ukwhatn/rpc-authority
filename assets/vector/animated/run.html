@@ -1,23 +1,33 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="http://files.ukwhatn.xyz/rpc/vector/animated/styles.css" />
     <style>
-        .animsvg-logo-origin,
-        .animsvg-logo-origin-slow,
-        .animsvg-logo-jp,
-        .animsvg-logo-jp-slow {
+        @import url('./animlogo-origin/animlogo-origin.css');
+        @import url('./animlogo-jp/animlogo-jp.css');
+
+        .animlogo-origin,
+        .animlogo-jp {
             display: inline-block;
-            animation-delay: 2s;
+            animation-delay: 1s;
         }
+
+        .half.animlogo-origin,
+        .half.animlogo-jp {
+            transform: scale(0.5);
+            margin:-100px;
+        }
+
     </style>
 </head>
 
 <body>
-    <div class="animsvg-logo-origin play"></div>
-    <div class="animsvg-logo-origin-slow play"></div>
-    <div class="animsvg-logo-jp play"></div>
-    <div class="animsvg-logo-jp-slow play"></div>
+    <p>original: 500px * 435px</p>
+    <div class="animlogo-origin play"></div>
+    <div class="animlogo-jp play"></div>
+
+    <p>re-scale: 50%</p>
+        <div class="half animlogo-origin play"></div>
+        <div class="half animlogo-jp play"></div>
 </body>
 
 </html>
