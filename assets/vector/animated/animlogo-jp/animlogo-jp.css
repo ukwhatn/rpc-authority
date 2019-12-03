@@ -17,6 +17,11 @@
     background-repeat: no-repeat;
 }
 
+.half.animlogo-jp {
+    transform: scale(0.5);
+    margin:-100px;
+}
+
 .animlogo-jp.play {
     animation-name: animlogo-jp;
     background-image: url('http://files.ukwhatn.xyz/rpc/vector/animated/animlogo-jp/animlogo-jp.svg');

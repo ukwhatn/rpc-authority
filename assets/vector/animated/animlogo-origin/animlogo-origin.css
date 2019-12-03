@@ -17,6 +17,11 @@
     background-repeat: no-repeat;
 }
 
+.half.animlogo-origin {
+    transform: scale(0.5);
+    margin:-100px;
+}
+
 .animlogo-origin.play {
     animation-name: animlogo-origin;
     background-image: url('http://files.ukwhatn.xyz/rpc/vector/animated/animlogo-origin/animlogo-origin.svg');
