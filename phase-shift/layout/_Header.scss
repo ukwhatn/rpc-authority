@@ -1,0 +1,33 @@
+/* Header */
+
+#header {
+  height: 10.75rem;
+  margin: 0 auto 1rem;
+  max-width: $Contents-MaxWidth;
+  
+  h1,
+  h2 {
+    left: 1rem;
+    position: relative;
+    top: 2.375rem;
+  }
+  
+  #search-top-box {
+    position: absolute;
+    right: 1rem;
+    top: calc(3.625rem - 2px);
+  }
+
+  #top-bar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  #login-status {
+    height: calc(1.5rem + 2px);
+    right: 0;
+    top: .4375rem;
+  }
+}

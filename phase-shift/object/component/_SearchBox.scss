@@ -1,0 +1,36 @@
+/* Search Box */
+
+#search-top-box {
+  input {
+    &[name="query"],
+    &[name="search"] {
+      height: calc(1.5rem + 2px);
+      font-size: 1rem;
+      line-height: 1;
+      margin: 0;
+      padding: .25rem;
+      vertical-align: middle;
+    }
+    
+    &[name="query"] {
+      background: #fff;
+      border: solid 1px #dee2e6;
+      color: #adb5bd;
+      margin: 0 .25rem 0 0;
+      
+      &:focus {
+        color: #495057;
+      }
+    }
+    
+    &[name="search"] {
+      background: #f1f3f5;
+      border: solid 1px #dee2e6;
+      color: #495057;
+      
+      &:hover {
+        background: #dee2e6;
+      }
+    }
+  }
+}
